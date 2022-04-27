@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16A5FE1A215A87F500AEEBBD /* WireSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A5FE10215A87B600AEEBBD /* WireSystem.framework */; };
-		16A5FE1B215A87F500AEEBBD /* WireUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A5FE12215A87B600AEEBBD /* WireUtilities.framework */; };
 		16A5FE1E215A882700AEEBBD /* WireSystem.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16A5FE10215A87B600AEEBBD /* WireSystem.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		16A5FE1F215A882700AEEBBD /* WireUtilities.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16A5FE12215A87B600AEEBBD /* WireUtilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5E2BEC54214BA4A600E65B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2BEC53214BA4A600E65B53 /* AppDelegate.swift */; };
@@ -31,6 +29,8 @@
 		5EDF03F4224A208E00C04007 /* HTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDF03F3224A208E00C04007 /* HTMLDocument.swift */; };
 		87B48ECB20A088F700DBAD9D /* crash_emoji.txt in Resources */ = {isa = PBXBuildFile; fileRef = 87B48ECA20A088F700DBAD9D /* crash_emoji.txt */; };
 		A0A4B8A427104D33009E0979 /* HTMLString.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A4B8A327104D33009E0979 /* HTMLString.xcframework */; };
+		A0BAC1DB2818F9E8007743C5 /* WireUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0BAC1D92818F9E8007743C5 /* WireUtilities.xcframework */; };
+		A0BAC1DD2818F9E8007743C5 /* WireSystem.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0BAC1DA2818F9E8007743C5 /* WireSystem.xcframework */; };
 		BF21CC8D1E925AA300A874F5 /* foursquare_head.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF21CC6D1E925A9E00A874F5 /* foursquare_head.txt */; };
 		BF21CC8E1E925AA300A874F5 /* guardian_head.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF21CC6E1E925A9E00A874F5 /* guardian_head.txt */; };
 		BF21CC8F1E925AA300A874F5 /* instagram_head.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF21CC6F1E925A9E00A874F5 /* instagram_head.txt */; };
@@ -133,6 +133,8 @@
 		5EDF03F3224A208E00C04007 /* HTMLDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLDocument.swift; sourceTree = "<group>"; };
 		87B48ECA20A088F700DBAD9D /* crash_emoji.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = crash_emoji.txt; sourceTree = "<group>"; };
 		A0A4B8A327104D33009E0979 /* HTMLString.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = HTMLString.xcframework; path = ../../Build/iOS/HTMLString.xcframework; sourceTree = "<group>"; };
+		A0BAC1D92818F9E8007743C5 /* WireUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WireUtilities.xcframework; path = ../../Build/iOS/WireUtilities.xcframework; sourceTree = "<group>"; };
+		A0BAC1DA2818F9E8007743C5 /* WireSystem.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WireSystem.xcframework; path = ../../Build/iOS/WireSystem.xcframework; sourceTree = "<group>"; };
 		BF21CC6D1E925A9E00A874F5 /* foursquare_head.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = foursquare_head.txt; path = WireLinkPreviewTests/foursquare_head.txt; sourceTree = SOURCE_ROOT; };
 		BF21CC6E1E925A9E00A874F5 /* guardian_head.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = guardian_head.txt; path = WireLinkPreviewTests/guardian_head.txt; sourceTree = SOURCE_ROOT; };
 		BF21CC6F1E925A9E00A874F5 /* instagram_head.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = instagram_head.txt; path = WireLinkPreviewTests/instagram_head.txt; sourceTree = SOURCE_ROOT; };
@@ -204,9 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EDF03F12249287B00C04007 /* libxml2.tbd in Frameworks */,
+				A0BAC1DD2818F9E8007743C5 /* WireSystem.xcframework in Frameworks */,
 				A0A4B8A427104D33009E0979 /* HTMLString.xcframework in Frameworks */,
-				16A5FE1A215A87F500AEEBBD /* WireSystem.framework in Frameworks */,
-				16A5FE1B215A87F500AEEBBD /* WireUtilities.framework in Frameworks */,
+				A0BAC1DB2818F9E8007743C5 /* WireUtilities.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +227,8 @@
 		16A5FE0F215A868700AEEBBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A0BAC1DA2818F9E8007743C5 /* WireSystem.xcframework */,
+				A0BAC1D92818F9E8007743C5 /* WireUtilities.xcframework */,
 				A0A4B8A327104D33009E0979 /* HTMLString.xcframework */,
 				5EDF03F02249287B00C04007 /* libxml2.tbd */,
 				16A5FE10215A87B600AEEBBD /* WireSystem.framework */,
